@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{A64EB644-C607-4ACE-A24D-BB5BE7D423A8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{07252374-B237-483C-B80A-B86CF5991B0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{D7E8D4AD-2EC7-40CF-A760-64BAE171BF6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{6AC7A413-3758-4BCE-9683-11667C063C2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessingGame.Repository", "GuessingGame.Repository\GuessingGame.Repository.csproj", "{6AFED63A-287A-425E-80AE-0923883875A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame.Models", "GuessingGame.Models\GuessingGame.Models.csproj", "{C56DBF09-95B6-40CA-ADEF-3C9BAD16E62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame.Service", "GuessingGame.Service\GuessingGame.Service.csproj", "{272877C6-8BFC-411C-8FA7-C418EB5A3632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame.Controller", "GuessingGame.Controller\GuessingGame.Controller.csproj", "{90449CDC-00E8-4967-95C2-BA0D15335521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AFED63A-287A-425E-80AE-0923883875A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFED63A-287A-425E-80AE-0923883875A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFED63A-287A-425E-80AE-0923883875A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFED63A-287A-425E-80AE-0923883875A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56DBF09-95B6-40CA-ADEF-3C9BAD16E62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56DBF09-95B6-40CA-ADEF-3C9BAD16E62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56DBF09-95B6-40CA-ADEF-3C9BAD16E62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56DBF09-95B6-40CA-ADEF-3C9BAD16E62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272877C6-8BFC-411C-8FA7-C418EB5A3632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272877C6-8BFC-411C-8FA7-C418EB5A3632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272877C6-8BFC-411C-8FA7-C418EB5A3632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272877C6-8BFC-411C-8FA7-C418EB5A3632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90449CDC-00E8-4967-95C2-BA0D15335521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90449CDC-00E8-4967-95C2-BA0D15335521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90449CDC-00E8-4967-95C2-BA0D15335521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90449CDC-00E8-4967-95C2-BA0D15335521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AFED63A-287A-425E-80AE-0923883875A3} = {D7E8D4AD-2EC7-40CF-A760-64BAE171BF6C}
+		{C56DBF09-95B6-40CA-ADEF-3C9BAD16E62C} = {07252374-B237-483C-B80A-B86CF5991B0C}
+		{272877C6-8BFC-411C-8FA7-C418EB5A3632} = {D7E8D4AD-2EC7-40CF-A760-64BAE171BF6C}
+		{90449CDC-00E8-4967-95C2-BA0D15335521} = {D7E8D4AD-2EC7-40CF-A760-64BAE171BF6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C083A38-6D92-4A5D-9384-A47901380CFD}
+	EndGlobalSection
+EndGlobal
